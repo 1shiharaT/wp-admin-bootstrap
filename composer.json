@@ -1,5 +1,5 @@
 {
-  "name": "1shiharaT/wp-admin-bootstrap",
+  "name": "1shiharat/wp-admin-bootstrap",
   "description": "Bootstrap Based CSS Framework for WordPress admin screen.",
   "require": {
     "php": ">=5.3.0"
