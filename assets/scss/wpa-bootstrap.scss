@@ -1,0 +1,62 @@
+@import "wpa-bootstrap/variables";
+@import "wpa-bootstrap/mixins";
+
+@import "font-awesome/font-awesome";
+@import "animate.scss";
+
+.wpa {
+
+  // Reset and dependencies
+  @import "wpa-bootstrap/normalize";
+
+
+
+  // Core CSS
+  @import "wpa-bootstrap/scaffolding";
+  @import "wpa-bootstrap/type";
+  @import "wpa-bootstrap/code";
+  @import "wpa-bootstrap/grid";
+  @import "wpa-bootstrap/tables";
+  @import "wpa-bootstrap/forms";
+  @import "wpa-bootstrap/buttons";
+
+  // Components
+  @import "wpa-bootstrap/component-animations";
+  @import "wpa-bootstrap/dropdowns";
+  @import "wpa-bootstrap/button-groups";
+  @import "wpa-bootstrap/input-groups";
+  @import "wpa-bootstrap/navs";
+  @import "wpa-bootstrap/navbar";
+  @import "wpa-bootstrap/breadcrumbs";
+  @import "wpa-bootstrap/pagination";
+
+  @import "wpa-bootstrap/pager";
+  @import "wpa-bootstrap/labels";
+  @import "wpa-bootstrap/badges";
+  @import "wpa-bootstrap/jumbotron";
+  @import "wpa-bootstrap/thumbnails";
+  @import "wpa-bootstrap/progress-bars";
+  @import "wpa-bootstrap/media";
+  @import "wpa-bootstrap/list-group";
+  @import "wpa-bootstrap/panels";
+  @import "wpa-bootstrap/responsive-embed";
+  @import "wpa-bootstrap/wells";
+  @import "wpa-bootstrap/close";
+
+
+
+  // Utility classes
+  @import "wpa-bootstrap/utilities";
+  @import "wpa-bootstrap/responsive-utilities";
+  dd, li {
+    margin-bottom: 0;
+  }
+}
+
+@import "wpa-bootstrap/alerts";
+
+// Components w/ JavaScript
+@import "wpa-bootstrap/modals";
+@import "wpa-bootstrap/tooltip";
+@import "wpa-bootstrap/popovers";
+@import "wpa-bootstrap/carousel";
