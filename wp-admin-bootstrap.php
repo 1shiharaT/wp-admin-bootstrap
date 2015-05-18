@@ -6,7 +6,7 @@
 Plugin Name: WP Admin Bootstrap
 Plugin URI: http://web-layman.com/
 Description: Bootstrap based css framework for WordPress
-Version: 0.0.1
+Version: 0.0.2
 Author: 1shiharaT
 Author URI: http://web-layman.com
 License: GPLv2 or later
@@ -65,7 +65,7 @@ class WP_Admin_Bootstrap {
 				<p><?php _e( 'Feautured : ', 'wp-admin-bootstrap' ) ?></p>
 				<p><a href="http://fronteed.com/iCheck/" target="_blank"><?php _e( 'iCheck' ) ?></a></p>
 				<p><a href="http://bootstrap-growl.remabledesigns.com/" target="_blank"><?php _e( 'Bootstrap Notify' ) ?></a></p>
-				<h3><?php _e( 'Use' ) ?></h3>
+				<h3><?php _e( 'Use', 'wp-admin-bootstrap' ) ?></h3>
 				<p>
 					Please be enclosed in <code>".wpa"</code>
 					<pre><code><?php echo htmlspecialchars( '<div class="wpa"> <!-- your contents --> </div>' ) ?></code></pre></p>
